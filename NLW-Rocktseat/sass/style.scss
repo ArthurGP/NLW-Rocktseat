@@ -1,0 +1,13 @@
+// Import colors
+@import "./colors/colors.scss";
+
+// Import home
+@import "./pages/home.scss";
+
+@import "./pages/animations.scss";
+
+@mixin text-style ($color, $font-size, $font-family) {
+  color: $color;
+  font-size: $font-size;
+  font-family: $font-family; 
+}
